@@ -1,0 +1,77 @@
+DATASET DEPLOYMENT ORDER - RECOMMENDED EXECUTION SEQUENCE
+=========================================================
+
+PHASE 1: VALIDATION (Tiny Datasets) - 24 total, run in batches of 8
+-----------------------------------------------------------------
+Batch 1A (Start first, ~1 min):
+1. data/mexican_3_9
+2. data/position_bias/business_0001_first
+3. data/position_bias/business_0001_second
+4. data/position_bias/business_0001_third
+5. data/position_bias/contractors_control
+6. data/position_bias/contractors_first
+7. data/position_bias/contractors_second
+8. data/position_bias/contractors_third
+
+Batch 1B (After 1A completes):
+9. data/competitive_description/mexican_control
+10. data/competitive_description/mexican_authority
+11. data/competitive_description/mexican_loss_aversion
+12. data/competitive_description/mexican_prompt_injection_basic
+13. data/competitive_description/mexican_prompt_injection_strong
+14. data/competitive_description/mexican_social_proof
+15. data/competitive_description/contractors_control
+16. data/competitive_description/contractors_authority
+
+Batch 1C (After 1B completes):
+17. data/competitive_description/contractors_loss_aversion
+18. data/competitive_description/contractors_prompt_injection_basic
+19. data/competitive_description/contractors_prompt_injection_strong
+20. data/competitive_description/contractors_social_proof
+21. data/malicious_description/mexican_control
+22. data/malicious_description/mexican_control_original
+23. data/malicious_description/mexican_authority
+24. data/malicious_description/mexican_loss_aversion
+
+Batch 1D (After 1C completes):
+25. data/malicious_description/mexican_prompt_injection_basic
+26. data/malicious_description/mexican_prompt_injection_strong
+27. data/malicious_description/mexican_social_proof
+28. data/malicious_description/contractors_control
+29. data/malicious_description/contractors_authority
+30. data/malicious_description/contractors_loss_aversion
+31. data/malicious_description/contractors_prompt_injection_basic
+32. data/malicious_description/contractors_prompt_injection_strong
+33. data/malicious_description/contractors_social_proof
+
+PHASE 2: SMALL DATASETS (2 datasets, run in parallel)
+------------------------------------------------------
+34. data/mexican_10_30
+35. data/contractors/contractors_10_30
+
+PHASE 3: MEDIUM DATASETS (2 datasets, run in parallel)
+-------------------------------------------------------
+36. data/mexican_33_99
+37. data/contractors/contractors_33_99
+
+PHASE 4: LARGE DATASETS (2 datasets, run sequentially)
+-------------------------------------------------------
+38. data/mexican_100_300 (SEQUENTIAL - critical resources)
+39. data/contractors/contractors_100_300 (SEQUENTIAL - critical resources)
+
+ESTIMATED TIMINGS
+==================
+Phase 1 (Validation):  ~5-10 minutes   | 24 datasets in 3 batches
+Phase 2 (Small):       ~3-4 minutes    | 2 parallel
+Phase 3 (Medium):      ~8-10 minutes   | 2 parallel
+Phase 4 (Large):       ~45-60 minutes  | 2 sequential
+
+TOTAL ESTIMATED TIME: 61-84 minutes (with optimal parallelization)
+
+SAFETY NOTES
+============
+- Phase 1 validates infrastructure before committing resources
+- Phase 2-3 gradual scaling tests
+- Phase 4 should only run when system is idle
+- Monitor memory usage during Phases 3 and especially Phase 4
+- Each large dataset (~15-30 min) could timeout on shared systems

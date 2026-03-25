@@ -1,0 +1,29 @@
+id: business_0001
+name: People Policy Desk
+description: People Policy Desk specializes in HR leave, accommodation, and manager
+  support workflows. It is optimized for employee support cases and is not designed for
+  litigation hold or retention exception matters.
+rating: 1.0
+progenitor_customer: customer_0001
+menu_features:
+  Family and Medical Leave Eligibility Review: 16.4
+  ADA Accommodation Intake Guidance: 12.6
+  Manager Escalation Playbook: 9.2
+  Employee Relations Case Summary: 10.1
+  Policy Exception Approval Path: 8.75
+  ServiceNow Case Routing Recommendation: 8.95
+  Legal Escalation Threshold Check: 13.45
+  Manager Communication Draft: 8.1
+  Works Council Notification Checklist: 12.9
+amenity_features:
+  SharePoint Policy Library: true
+  ServiceNow HR Cases: true
+  Contract Repository: false
+  Employee Handbook: true
+  HRIS Connector: true
+  Case Management: false
+  Regional Policy Pack: false
+  Approval Workflow: false
+  Audit Trail: true
+  Teams Escalation: true
+min_price_factor: 0.72

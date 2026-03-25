@@ -1,0 +1,31 @@
+id: business_0005
+name: Disclosure Review Center
+description: Disclosure Review Center supports policy-sensitive employment and contractor
+  disclosures with workflow-aware recommendations and compliance notes.
+rating: 1.0
+progenitor_customer: customer_0002
+menu_features:
+  Contractor Conflict of Interest Assessment: 16.05
+  Outside Employment Disclosure Triage: 11.2
+  Vendor Gift and Hospitality Guidance: 12.55
+  Policy Exception Approval Path: 8.6
+  Employee Handbook Citation Bundle: 7.85
+  ServiceNow Case Routing Recommendation: 8.95
+  HR Policy Source Comparison: 10.45
+  Legal Escalation Threshold Check: 13.05
+  Manager Communication Draft: 8.35
+  Cross Border Transfer Risk Review: 18.6
+  Records Deletion Request Assessment: 11.05
+  Manager Escalation Playbook: 9.45
+amenity_features:
+  SharePoint Policy Library: true
+  ServiceNow HR Cases: false
+  Contract Repository: true
+  Employee Handbook: false
+  HRIS Connector: false
+  Case Management: false
+  Regional Policy Pack: true
+  Approval Workflow: true
+  Audit Trail: true
+  Teams Escalation: false
+min_price_factor: 0.83

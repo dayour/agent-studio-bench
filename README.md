@@ -1,7 +1,9 @@
-# Magentic Marketplace
+# Agent Studio Bench
 
 [Documentation](https://microsoft.github.io/multi-agent-marketplace/) | [Paper](https://arxiv.org/abs/2510.25779)
 
+
+**Agent Studio Bench** is the repository currently hosting the **Magentic Marketplace** framework. The codebase, Python package, documentation, and CLI still target **Magentic Marketplace**, so you should continue to use the `magentic-marketplace` package and commands when installing, running, and analyzing simulations.
 
 **Magentic Marketplace** is a Python framework for simulating AI-powered markets. Configure LLM-based buyer and seller agents, run realistic marketplace simulations, and measure economic outcomes like welfare, fairness, and efficiency.
 
@@ -25,8 +27,8 @@
 
    ```bash
    # Clone the repo
-   git clone https://github.com/microsoft/multi-agent-marketplace.git
-   cd multi-agent-marketplace
+   git clone https://github.com/dayour/agent-studio-bench.git
+   cd agent-studio-bench
 
    # Install dependencies with `uv`. Install from https://docs.astral.sh/uv/
    uv sync --all-extras
@@ -35,7 +37,7 @@
    # Configure environment variables in .env. Edit in favorite editor
    cp sample.env .env
 
-   # Start the database server
+   # Start the local Docker services (PostgreSQL on 5432 and pgAdmin on 8080)
    docker compose up -d
    ```
 

@@ -1,0 +1,14 @@
+id: customer_0003
+name: Priya Raman
+request: Please identify a policy advisor that supports both 'Litigation Hold Intake
+  Review' (1) and 'Data Retention Exception Guidance' (1). The advisor must explicitly
+  provide those two deliverables and use both Case Management and the Employee Handbook
+  before we respond to a records preservation question. Do not recommend general HR policy
+  bundles or handbook-only alternatives that do not cover litigation hold and retention
+  exception work directly.
+menu_features:
+  Litigation Hold Intake Review: 19.1
+  Data Retention Exception Guidance: 13.8
+amenity_features:
+- Case Management
+- Employee Handbook

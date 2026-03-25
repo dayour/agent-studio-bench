@@ -1,0 +1,151 @@
+================================================================================
+AGENT STUDIO BENCH - DATASET INVENTORY REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+Location: E:\agent-studio-bench\data
+Total Runnable Datasets: 39 (including mexican_3_9)
+Datasets Beyond mexican_3_9: 38
+
+DIRECTORY STRUCTURE REQUIREMENT (for runnable datasets)
+---------------------------------------------------------
+All runnable experiment datasets require:
+  - businesses/ subdirectory containing YAML files
+  - customers/ subdirectory containing YAML files
+  - Optional: baseline_utilities.json configuration file
+
+Command Format: magentic-marketplace run <data_dir> --experiment-name <name>
+
+
+COMPLETE DATASET INVENTORY
+==========================
+
+TIER 1: MEXICAN SERIES (Top-level directories)
+--------------------------------------------
+✓ data/mexican_3_9           |  3 biz |   1 cust | Tiny      | Already tested
+✓ data/mexican_10_30         | 10 biz |  30 cust | Small     | NEW
+✓ data/mexican_33_99         | 33 biz |  99 cust | Medium    | NEW
+✓ data/mexican_100_300       |100 biz | 300 cust | Large     | NEW
+
+
+TIER 2: POSITION BIAS STUDIES (7 variants)
+------------------------------------------
+✓ data/position_bias/business_0001_first      |  3 biz | 1 cust | Tiny | NEW
+✓ data/position_bias/business_0001_second     |  3 biz | 1 cust | Tiny | NEW
+✓ data/position_bias/business_0001_third      |  3 biz | 1 cust | Tiny | NEW
+✓ data/position_bias/contractors_control      |  3 biz | 1 cust | Tiny | NEW
+✓ data/position_bias/contractors_first        |  3 biz | 1 cust | Tiny | NEW
+✓ data/position_bias/contractors_second       |  3 biz | 1 cust | Tiny | NEW
+✓ data/position_bias/contractors_third        |  3 biz | 1 cust | Tiny | NEW
+
+
+TIER 3: CONTRACTORS SCALABILITY SERIES (3 scales)
+-------------------------------------------------
+✓ data/contractors/contractors_10_30       | 10 biz | 30 cust | Small  | NEW
+✓ data/contractors/contractors_33_99       | 33 biz | 99 cust | Medium | NEW
+✓ data/contractors/contractors_100_300     |100 biz |300 cust | Large  | NEW
+
+
+TIER 4: COMPETITIVE DESCRIPTION TESTS (12 variants)
+---------------------------------------------------
+Competition/Description Tests with Mexican domain:
+✓ data/competitive_description/mexican_control                   | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/mexican_authority                 | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/mexican_loss_aversion             | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/mexican_prompt_injection_basic    | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/mexican_prompt_injection_strong   | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/mexican_social_proof              | 3 biz | 3 cust | Tiny | NEW
+
+Competition/Description Tests with Contractors domain:
+✓ data/competitive_description/contractors_control               | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/contractors_authority             | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/contractors_loss_aversion         | 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/contractors_prompt_injection_basic| 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/contractors_prompt_injection_strong| 3 biz | 3 cust | Tiny | NEW
+✓ data/competitive_description/contractors_social_proof          | 3 biz | 3 cust | Tiny | NEW
+
+
+TIER 5: MALICIOUS DESCRIPTION TESTS (13 variants)
+-------------------------------------------------
+Malicious/Prompt Injection Tests with Mexican domain:
+✓ data/malicious_description/mexican_control                    | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/mexican_control_original           | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/mexican_authority                  | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/mexican_loss_aversion              | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/mexican_prompt_injection_basic     | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/mexican_prompt_injection_strong    | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/mexican_social_proof               | 3 biz | 1 cust | Tiny | NEW
+
+Malicious/Prompt Injection Tests with Contractors domain:
+✓ data/malicious_description/contractors_control                | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/contractors_authority              | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/contractors_loss_aversion          | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/contractors_prompt_injection_basic | 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/contractors_prompt_injection_strong| 3 biz | 1 cust | Tiny | NEW
+✓ data/malicious_description/contractors_social_proof           | 3 biz | 1 cust | Tiny | NEW
+
+
+SIZE CLASSIFICATION
+===================
+Tiny   (3 biz, 1-3 cust):        24 datasets | Est. 30-60 sec/run   | Safe for 8x parallel
+Small  (10-30 biz, 10-30 cust):  2 datasets  | Est. 2-3 min/run    | Safe for 3x parallel
+Medium (33-99 biz, 33-99 cust):  2 datasets  | Est. 5-8 min/run    | Safe for 2x parallel
+Large  (100-300 biz, 100-300):   2 datasets  | Est. 15-30 min/run  | Must run sequentially
+
+Total: 39 datasets (including mexican_3_9)
+
+
+RECOMMENDED DEPLOYMENT ORDER (Risk-Optimized, Parallelism-Aware)
+================================================================
+
+PHASE 1: VALIDATION (Tiny Datasets) - 5-10 min total
+Run 8 in parallel, then repeat with remaining 16
+Risk: Very Low | Resource Impact: Minimal
+- 24 tiny datasets (competitive_description + malicious_description + position_bias)
+- Validates infrastructure and API connectivity
+- Identifies issues before resource-heavy runs
+
+PHASE 2: SMALL SCALE (Small Datasets) - 8-12 min total  
+Run 2 in parallel
+Risk: Low | Resource Impact: Moderate
+- data/mexican_10_30
+- data/contractors/contractors_10_30
+- Tests scaling from tiny
+
+PHASE 3: MEDIUM SCALE (Medium Datasets) - 12-16 min total
+Run 2 in parallel
+Risk: Medium | Resource Impact: Moderate-High
+- data/mexican_33_99
+- data/contractors/contractors_33_99
+- Tests mid-range scaling
+
+PHASE 4: LARGE SCALE (Large Datasets) - 30-60 min total
+Run sequentially (one at a time)
+Risk: High | Resource Impact: Critical
+- data/mexican_100_300 (run first, ~15-30 min)
+- data/contractors/contractors_100_300 (run second, ~15-30 min)
+- These consume significant resources, monitor memory/CPU
+
+ESTIMATED TOTAL RUNTIME: 55-110 minutes (with optimal parallelization)
+
+
+RESOURCE REQUIREMENTS
+====================
+Recommended minimum:
+- CPU: 4-8 vCPUs (more for parallel phases)
+- RAM: 16+ GB (monitor for large dataset phase)
+- Storage: 2+ GB free (for experiment logs/outputs)
+- Network: 10+ Mbps (for LLM API calls)
+- Disk I/O: SSD preferred for large phase
+
+
+BLOCKERS & OPEN QUESTIONS
+==========================
+None identified. All 39 datasets have correct directory structure.
+
+✓ All datasets contain required businesses/ and customers/ subdirectories
+✓ All datasets are immediately runnable with magentic-marketplace
+✓ No missing dependencies or structural issues found
+✓ No file format issues detected
+

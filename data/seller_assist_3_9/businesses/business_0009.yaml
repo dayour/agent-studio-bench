@@ -1,0 +1,32 @@
+id: business_0009
+name: Revenue Risk Partners
+description: Revenue Risk Partners provides deal risk and financial research but draws
+  on competitive and intent data rather than historical win-loss records, making it
+  better suited for net-new pipeline than renewal scenarios.
+rating: 1.0
+progenitor_customer: customer_0003
+menu_features:
+  Financial Health Snapshot: 17.1
+  Deal Risk Assessment: 13.2
+  Organization Chart and Key Contacts: 14.4
+  Recent News and Press Digest: 9.2
+  Account Executive Summary: 12.1
+  Industry Trend Alignment Brief: 14.8
+  Customer Success Scorecard: 10.5
+  Meeting Intelligence Dossier: 9.8
+  Executive Communication Prep Pack: 8.5
+  Partner and Alliance Landscape: 13.0
+  Contract Renewal Timeline: 11.0
+  Expansion Readiness Assessment: 17.2
+amenity_features:
+  CRM Account History: true
+  LinkedIn Sales Navigator: true
+  SEC and Public Filings: true
+  News and Media Monitoring: true
+  Technographic Intelligence: true
+  Intent Signal Platform: true
+  Internal Win-Loss Repository: false
+  Customer Success Platform: false
+  Competitive Intelligence Feed: true
+  Executive Relationship Graph: true
+min_price_factor: 0.62

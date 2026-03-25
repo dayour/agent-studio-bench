@@ -1,0 +1,83 @@
+# Seller Assist research deliverables
+# Each item is a discrete research output a sales rep can request.
+# mean_price represents relative effort/complexity units.
+
+- name: Account Executive Summary
+  mean_price: 12.5
+  price_stddev: 1.8
+
+- name: Competitive Landscape Brief
+  mean_price: 16.0
+  price_stddev: 2.2
+
+- name: Organization Chart and Key Contacts
+  mean_price: 14.5
+  price_stddev: 2.0
+
+- name: Technology Stack Assessment
+  mean_price: 18.0
+  price_stddev: 2.5
+
+- name: Recent News and Press Digest
+  mean_price: 9.5
+  price_stddev: 1.2
+
+- name: Financial Health Snapshot
+  mean_price: 17.5
+  price_stddev: 2.4
+
+- name: Contract Renewal Timeline
+  mean_price: 11.0
+  price_stddev: 1.5
+
+- name: Pain Point and Initiative Mapping
+  mean_price: 19.0
+  price_stddev: 2.6
+
+- name: Stakeholder Sentiment Analysis
+  mean_price: 15.5
+  price_stddev: 2.1
+
+- name: Deal Risk Assessment
+  mean_price: 13.5
+  price_stddev: 1.8
+
+- name: Pricing Benchmark Report
+  mean_price: 14.0
+  price_stddev: 1.9
+
+- name: Whitespace Opportunity Analysis
+  mean_price: 16.5
+  price_stddev: 2.3
+
+- name: Regulatory Exposure Summary
+  mean_price: 12.0
+  price_stddev: 1.6
+
+- name: Customer Success Scorecard
+  mean_price: 10.5
+  price_stddev: 1.3
+
+- name: Partner and Alliance Landscape
+  mean_price: 13.0
+  price_stddev: 1.7
+
+- name: Annual Report Key Findings
+  mean_price: 11.5
+  price_stddev: 1.5
+
+- name: Industry Trend Alignment Brief
+  mean_price: 15.0
+  price_stddev: 2.0
+
+- name: Executive Communication Prep Pack
+  mean_price: 8.5
+  price_stddev: 1.0
+
+- name: Meeting Intelligence Dossier
+  mean_price: 10.0
+  price_stddev: 1.2
+
+- name: Expansion Readiness Assessment
+  mean_price: 17.0
+  price_stddev: 2.3

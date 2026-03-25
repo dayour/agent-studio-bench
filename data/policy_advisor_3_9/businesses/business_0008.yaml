@@ -1,0 +1,31 @@
+id: business_0008
+name: Policy Record Counsel
+description: Policy Record Counsel focuses on records, retention, and hold decisions,
+  connecting legal guidance with operational HR context.
+rating: 1.0
+progenitor_customer: customer_0003
+menu_features:
+  Litigation Hold Intake Review: 18.8
+  Data Retention Exception Guidance: 13.1
+  Employee Handbook Citation Bundle: 7.9
+  ServiceNow Case Routing Recommendation: 9.2
+  HR Policy Source Comparison: 10.4
+  Legal Escalation Threshold Check: 13.05
+  Manager Communication Draft: 8.3
+  Records Deletion Request Assessment: 11.15
+  Workplace Investigation Intake: 17.55
+  Cross Border Transfer Risk Review: 18.7
+  Severance Template Selection: 15.3
+  Works Council Notification Checklist: 12.45
+amenity_features:
+  SharePoint Policy Library: false
+  ServiceNow HR Cases: false
+  Contract Repository: false
+  Employee Handbook: true
+  HRIS Connector: false
+  Case Management: true
+  Regional Policy Pack: true
+  Approval Workflow: true
+  Audit Trail: true
+  Teams Escalation: false
+min_price_factor: 0.82

@@ -1,0 +1,13 @@
+id: customer_0001
+name: Jordan Reeves
+request: I need a research desk that can produce both a 'Technology Stack Assessment'
+  (1) and an 'Organization Chart and Key Contacts' (1) for my prospect Northwind
+  Traders. The research must draw on LinkedIn Sales Navigator and Technographic Intelligence
+  so I can map their IT decision-makers and current vendor landscape before my QBR next
+  week.
+menu_features:
+  Technology Stack Assessment: 18.0
+  Organization Chart and Key Contacts: 14.5
+amenity_features:
+- LinkedIn Sales Navigator
+- Technographic Intelligence

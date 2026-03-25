@@ -1,0 +1,31 @@
+id: business_0004
+name: Rival Edge Research
+description: Rival Edge Research specializes in competitive positioning analysis and
+  initiative mapping for sales teams navigating complex multi-vendor deal cycles.
+rating: 1.0
+progenitor_customer: customer_0002
+menu_features:
+  Competitive Landscape Brief: 15.4
+  Pain Point and Initiative Mapping: 18.3
+  Technology Stack Assessment: 17.6
+  Stakeholder Sentiment Analysis: 15.1
+  Deal Risk Assessment: 13.4
+  Pricing Benchmark Report: 13.7
+  Account Executive Summary: 12.2
+  Industry Trend Alignment Brief: 14.8
+  Executive Communication Prep Pack: 8.3
+  Whitespace Opportunity Analysis: 16.2
+  Meeting Intelligence Dossier: 9.7
+  Expansion Readiness Assessment: 16.8
+amenity_features:
+  CRM Account History: true
+  LinkedIn Sales Navigator: false
+  SEC and Public Filings: false
+  News and Media Monitoring: true
+  Technographic Intelligence: false
+  Intent Signal Platform: true
+  Internal Win-Loss Repository: false
+  Customer Success Platform: false
+  Competitive Intelligence Feed: true
+  Executive Relationship Graph: false
+min_price_factor: 0.71

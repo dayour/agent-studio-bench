@@ -1,0 +1,31 @@
+id: business_0006
+name: Horizon Strategy Lab
+description: Horizon Strategy Lab produces initiative and competitive analysis reports
+  but relies on public and intent sources, without direct CRM integration.
+rating: 1.0
+progenitor_customer: customer_0002
+menu_features:
+  Competitive Landscape Brief: 15.8
+  Pain Point and Initiative Mapping: 18.7
+  Technology Stack Assessment: 17.8
+  Stakeholder Sentiment Analysis: 15.5
+  Whitespace Opportunity Analysis: 16.4
+  Pricing Benchmark Report: 14.1
+  Meeting Intelligence Dossier: 10.0
+  Industry Trend Alignment Brief: 15.1
+  Account Executive Summary: 12.4
+  Expansion Readiness Assessment: 17.1
+  Recent News and Press Digest: 9.4
+  Regulatory Exposure Summary: 12.3
+amenity_features:
+  CRM Account History: false
+  LinkedIn Sales Navigator: true
+  SEC and Public Filings: false
+  News and Media Monitoring: true
+  Technographic Intelligence: true
+  Intent Signal Platform: true
+  Internal Win-Loss Repository: false
+  Customer Success Platform: false
+  Competitive Intelligence Feed: true
+  Executive Relationship Graph: false
+min_price_factor: 0.66

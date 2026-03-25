@@ -1,0 +1,12 @@
+id: customer_0001
+name: Alicia Gomez
+request: Please help me find a policy advisor that can review both 'Family and Medical
+  Leave Eligibility Review' (1) and 'ADA Accommodation Intake Guidance' (1). I need
+  the advisor to reason over our SharePoint Policy Library and ServiceNow HR Cases
+  so I can respond to an open employee leave and accommodation case with confidence.
+menu_features:
+  Family and Medical Leave Eligibility Review: 18.5
+  ADA Accommodation Intake Guidance: 14.0
+amenity_features:
+- SharePoint Policy Library
+- ServiceNow HR Cases

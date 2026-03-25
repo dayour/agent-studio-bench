@@ -1,0 +1,13 @@
+id: customer_0002
+name: Samira Haddad
+request: I need a research desk that can deliver a 'Competitive Landscape Brief'
+  (1) and a 'Pain Point and Initiative Mapping' (1) for Contoso Pharmaceuticals.
+  The desk must have access to both our CRM Account History and the Competitive
+  Intelligence Feed so I can position against their incumbent vendor in the upcoming
+  proposal cycle.
+menu_features:
+  Competitive Landscape Brief: 16.0
+  Pain Point and Initiative Mapping: 19.0
+amenity_features:
+- CRM Account History
+- Competitive Intelligence Feed

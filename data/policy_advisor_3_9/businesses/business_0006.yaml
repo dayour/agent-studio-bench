@@ -1,0 +1,31 @@
+id: business_0006
+name: Policy Exception Board
+description: Policy Exception Board combines workflow routing and policy interpretation
+  for escalated ethics and disclosure issues across enterprise teams.
+rating: 1.0
+progenitor_customer: customer_0002
+menu_features:
+  Contractor Conflict of Interest Assessment: 15.2
+  Outside Employment Disclosure Triage: 10.6
+  Vendor Gift and Hospitality Guidance: 12.25
+  Policy Exception Approval Path: 8.25
+  Employee Handbook Citation Bundle: 7.55
+  ServiceNow Case Routing Recommendation: 8.7
+  HR Policy Source Comparison: 10.0
+  Legal Escalation Threshold Check: 12.85
+  Manager Communication Draft: 8.05
+  Cross Border Transfer Risk Review: 18.35
+  Works Council Notification Checklist: 12.35
+  Workplace Investigation Intake: 16.95
+amenity_features:
+  SharePoint Policy Library: false
+  ServiceNow HR Cases: false
+  Contract Repository: true
+  Employee Handbook: false
+  HRIS Connector: false
+  Case Management: false
+  Regional Policy Pack: true
+  Approval Workflow: false
+  Audit Trail: true
+  Teams Escalation: true
+min_price_factor: 0.66

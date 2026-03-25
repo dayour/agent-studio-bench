@@ -1,0 +1,13 @@
+id: customer_0003
+name: Marcus Okafor
+request: Please find a research desk that supports both 'Financial Health Snapshot'
+  (1) and 'Deal Risk Assessment' (1) for my renewal at Fabrikam Industries. The desk
+  must use SEC and Public Filings together with the Internal Win-Loss Repository so I
+  can assess whether their budget constraints and our past deal outcomes justify the
+  renewal terms I am about to propose.
+menu_features:
+  Financial Health Snapshot: 17.5
+  Deal Risk Assessment: 13.5
+amenity_features:
+- SEC and Public Filings
+- Internal Win-Loss Repository

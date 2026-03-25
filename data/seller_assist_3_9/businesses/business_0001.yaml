@@ -1,0 +1,32 @@
+id: business_0001
+name: TechInsight Research Desk
+description: TechInsight Research Desk specializes in technology vendor landscape analysis
+  and organizational mapping for enterprise sales teams preparing for technical buying
+  committee engagements.
+rating: 1.0
+progenitor_customer: customer_0001
+menu_features:
+  Technology Stack Assessment: 17.2
+  Organization Chart and Key Contacts: 13.8
+  Recent News and Press Digest: 9.1
+  Industry Trend Alignment Brief: 14.7
+  Executive Communication Prep Pack: 8.2
+  Whitespace Opportunity Analysis: 16.1
+  Partner and Alliance Landscape: 12.8
+  Meeting Intelligence Dossier: 9.8
+  Customer Success Scorecard: 10.2
+  Expansion Readiness Assessment: 16.7
+  Regulatory Exposure Summary: 11.7
+  Pricing Benchmark Report: 13.6
+amenity_features:
+  CRM Account History: false
+  LinkedIn Sales Navigator: true
+  SEC and Public Filings: false
+  News and Media Monitoring: true
+  Technographic Intelligence: true
+  Intent Signal Platform: false
+  Internal Win-Loss Repository: false
+  Customer Success Platform: false
+  Competitive Intelligence Feed: false
+  Executive Relationship Graph: true
+min_price_factor: 0.74

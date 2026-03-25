@@ -1,0 +1,32 @@
+id: business_0002
+name: Apex Account Intelligence
+description: Apex Account Intelligence delivers deep-dive account research combining
+  executive network mapping with technology environment profiling for mid-market and
+  enterprise sales cycles.
+rating: 1.0
+progenitor_customer: customer_0001
+menu_features:
+  Technology Stack Assessment: 18.6
+  Organization Chart and Key Contacts: 15.1
+  Recent News and Press Digest: 9.7
+  Stakeholder Sentiment Analysis: 15.3
+  Annual Report Key Findings: 11.3
+  Pricing Benchmark Report: 13.9
+  Contract Renewal Timeline: 10.8
+  Executive Communication Prep Pack: 8.6
+  Meeting Intelligence Dossier: 10.1
+  Expansion Readiness Assessment: 17.2
+  Whitespace Opportunity Analysis: 16.4
+  Regulatory Exposure Summary: 12.0
+amenity_features:
+  CRM Account History: true
+  LinkedIn Sales Navigator: true
+  SEC and Public Filings: false
+  News and Media Monitoring: false
+  Technographic Intelligence: true
+  Intent Signal Platform: true
+  Internal Win-Loss Repository: false
+  Customer Success Platform: false
+  Competitive Intelligence Feed: false
+  Executive Relationship Graph: false
+min_price_factor: 0.82

@@ -1,0 +1,32 @@
+id: business_0003
+name: SignalMap Analytics
+description: SignalMap Analytics provides technology and organizational research but
+  draws primarily on intent signals and public sources rather than professional network
+  data.
+rating: 1.0
+progenitor_customer: customer_0001
+menu_features:
+  Technology Stack Assessment: 17.5
+  Organization Chart and Key Contacts: 14.2
+  Recent News and Press Digest: 9.3
+  Regulatory Exposure Summary: 11.9
+  Customer Success Scorecard: 10.4
+  Partner and Alliance Landscape: 13.1
+  Annual Report Key Findings: 11.6
+  Industry Trend Alignment Brief: 14.9
+  Whitespace Opportunity Analysis: 16.3
+  Meeting Intelligence Dossier: 9.9
+  Executive Communication Prep Pack: 8.3
+  Expansion Readiness Assessment: 16.8
+amenity_features:
+  CRM Account History: false
+  LinkedIn Sales Navigator: false
+  SEC and Public Filings: false
+  News and Media Monitoring: true
+  Technographic Intelligence: true
+  Intent Signal Platform: true
+  Internal Win-Loss Repository: false
+  Customer Success Platform: false
+  Competitive Intelligence Feed: true
+  Executive Relationship Graph: false
+min_price_factor: 0.68

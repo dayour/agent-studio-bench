@@ -1,0 +1,31 @@
+id: business_0007
+name: Fiduciary Insights Desk
+description: Fiduciary Insights Desk specializes in financial due diligence and deal
+  risk evaluation for sales teams managing high-value renewal and expansion cycles.
+rating: 1.0
+progenitor_customer: customer_0003
+menu_features:
+  Financial Health Snapshot: 16.8
+  Deal Risk Assessment: 12.9
+  Annual Report Key Findings: 11.2
+  Regulatory Exposure Summary: 11.8
+  Contract Renewal Timeline: 10.7
+  Pricing Benchmark Report: 13.5
+  Account Executive Summary: 12.3
+  Customer Success Scorecard: 10.3
+  Executive Communication Prep Pack: 8.4
+  Partner and Alliance Landscape: 12.9
+  Industry Trend Alignment Brief: 14.6
+  Meeting Intelligence Dossier: 9.6
+amenity_features:
+  CRM Account History: true
+  LinkedIn Sales Navigator: false
+  SEC and Public Filings: true
+  News and Media Monitoring: true
+  Technographic Intelligence: false
+  Intent Signal Platform: false
+  Internal Win-Loss Repository: true
+  Customer Success Platform: true
+  Competitive Intelligence Feed: false
+  Executive Relationship Graph: false
+min_price_factor: 0.73

@@ -1,0 +1,32 @@
+id: business_0007
+name: Retention and Hold Desk
+description: Retention and Hold Desk specializes in litigation hold intake, retention
+  exception analysis, and records preservation guidance for combined HR and legal case
+  reviews.
+rating: 1.0
+progenitor_customer: customer_0003
+menu_features:
+  Litigation Hold Intake Review: 17.6
+  Data Retention Exception Guidance: 12.9
+  Employee Handbook Citation Bundle: 7.65
+  Manager Escalation Playbook: 9.35
+  ServiceNow Case Routing Recommendation: 9.05
+  HR Policy Source Comparison: 10.25
+  Legal Escalation Threshold Check: 12.95
+  Manager Communication Draft: 8.15
+  Records Deletion Request Assessment: 10.95
+  Workplace Investigation Intake: 17.4
+  Cross Border Transfer Risk Review: 18.55
+  Severance Template Selection: 15.15
+amenity_features:
+  SharePoint Policy Library: true
+  ServiceNow HR Cases: false
+  Contract Repository: false
+  Employee Handbook: true
+  HRIS Connector: false
+  Case Management: true
+  Regional Policy Pack: false
+  Approval Workflow: false
+  Audit Trail: true
+  Teams Escalation: true
+min_price_factor: 0.69

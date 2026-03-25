@@ -1,0 +1,12 @@
+id: customer_0002
+name: Brian Chen
+request: I need a policy advisor that can handle 'Contractor Conflict of Interest
+  Assessment' (1) and 'Outside Employment Disclosure Triage' (1). The response needs
+  to be grounded in our Contract Repository and Approval Workflow so I can advise
+  an HR business partner on a pending ethics disclosure.
+menu_features:
+  Contractor Conflict of Interest Assessment: 16.25
+  Outside Employment Disclosure Triage: 11.75
+amenity_features:
+- Contract Repository
+- Approval Workflow

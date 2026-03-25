@@ -1,0 +1,31 @@
+id: business_0004
+name: Ethics Routing Counsel
+description: Ethics Routing Counsel helps HR and legal teams triage disclosure and
+  conflict questions using structured policy sources and approval paths.
+rating: 1.0
+progenitor_customer: customer_0002
+menu_features:
+  Contractor Conflict of Interest Assessment: 14.9
+  Outside Employment Disclosure Triage: 10.8
+  Vendor Gift and Hospitality Guidance: 12.1
+  Policy Exception Approval Path: 8.3
+  Employee Handbook Citation Bundle: 7.4
+  ServiceNow Case Routing Recommendation: 8.8
+  HR Policy Source Comparison: 10.1
+  Legal Escalation Threshold Check: 12.95
+  Manager Communication Draft: 8.15
+  Cross Border Transfer Risk Review: 18.2
+  Severance Template Selection: 15.0
+  Workplace Investigation Intake: 17.1
+amenity_features:
+  SharePoint Policy Library: true
+  ServiceNow HR Cases: false
+  Contract Repository: true
+  Employee Handbook: false
+  HRIS Connector: false
+  Case Management: false
+  Regional Policy Pack: false
+  Approval Workflow: true
+  Audit Trail: true
+  Teams Escalation: true
+min_price_factor: 0.71

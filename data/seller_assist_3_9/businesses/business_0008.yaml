@@ -1,0 +1,32 @@
+id: business_0008
+name: Ledger and Signal Group
+description: Ledger and Signal Group provides financial analysis and deal evaluation
+  services grounded in public filings and historical deal outcome data for enterprise
+  sales organizations.
+rating: 1.0
+progenitor_customer: customer_0003
+menu_features:
+  Financial Health Snapshot: 17.9
+  Deal Risk Assessment: 13.8
+  Annual Report Key Findings: 11.7
+  Competitive Landscape Brief: 15.9
+  Stakeholder Sentiment Analysis: 15.4
+  Technology Stack Assessment: 17.7
+  Whitespace Opportunity Analysis: 16.5
+  Expansion Readiness Assessment: 17.3
+  Recent News and Press Digest: 9.5
+  Regulatory Exposure Summary: 12.2
+  Pricing Benchmark Report: 14.2
+  Contract Renewal Timeline: 11.1
+amenity_features:
+  CRM Account History: false
+  LinkedIn Sales Navigator: false
+  SEC and Public Filings: true
+  News and Media Monitoring: true
+  Technographic Intelligence: false
+  Intent Signal Platform: false
+  Internal Win-Loss Repository: true
+  Customer Success Platform: false
+  Competitive Intelligence Feed: true
+  Executive Relationship Graph: false
+min_price_factor: 0.79

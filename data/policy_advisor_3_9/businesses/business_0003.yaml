@@ -1,0 +1,31 @@
+id: business_0003
+name: Accommodation Review Office
+description: Accommodation Review Office provides policy-backed guidance for employee
+  support questions and operational case triage across HR channels.
+rating: 1.0
+progenitor_customer: customer_0001
+menu_features:
+  Family and Medical Leave Eligibility Review: 15.8
+  ADA Accommodation Intake Guidance: 13.9
+  Manager Escalation Playbook: 9.15
+  Employee Relations Case Summary: 10.0
+  Policy Exception Approval Path: 8.7
+  Employee Handbook Citation Bundle: 7.75
+  ServiceNow Case Routing Recommendation: 9.05
+  HR Policy Source Comparison: 10.35
+  Legal Escalation Threshold Check: 13.55
+  Manager Communication Draft: 8.05
+  Workplace Investigation Intake: 17.4
+  Vendor Gift and Hospitality Guidance: 12.7
+amenity_features:
+  SharePoint Policy Library: true
+  ServiceNow HR Cases: false
+  Contract Repository: false
+  Employee Handbook: true
+  HRIS Connector: true
+  Case Management: false
+  Regional Policy Pack: false
+  Approval Workflow: false
+  Audit Trail: true
+  Teams Escalation: true
+min_price_factor: 0.67

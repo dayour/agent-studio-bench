@@ -1,0 +1,60 @@
+- name: Family and Medical Leave Eligibility Review
+  mean_price: 18.5
+  price_stddev: 2.5
+- name: ADA Accommodation Intake Guidance
+  mean_price: 14.0
+  price_stddev: 2.0
+- name: Contractor Conflict of Interest Assessment
+  mean_price: 16.25
+  price_stddev: 2.2
+- name: Outside Employment Disclosure Triage
+  mean_price: 11.75
+  price_stddev: 1.8
+- name: Litigation Hold Intake Review
+  mean_price: 19.1
+  price_stddev: 2.7
+- name: Data Retention Exception Guidance
+  mean_price: 13.8
+  price_stddev: 1.9
+- name: Manager Escalation Playbook
+  mean_price: 9.5
+  price_stddev: 1.3
+- name: Works Council Notification Checklist
+  mean_price: 12.6
+  price_stddev: 1.7
+- name: Employee Relations Case Summary
+  mean_price: 10.2
+  price_stddev: 1.2
+- name: Policy Exception Approval Path
+  mean_price: 8.9
+  price_stddev: 1.1
+- name: Vendor Gift and Hospitality Guidance
+  mean_price: 12.9
+  price_stddev: 1.6
+- name: Severance Template Selection
+  mean_price: 15.4
+  price_stddev: 2.1
+- name: Workplace Investigation Intake
+  mean_price: 17.2
+  price_stddev: 2.3
+- name: Cross Border Transfer Risk Review
+  mean_price: 18.9
+  price_stddev: 2.4
+- name: Records Deletion Request Assessment
+  mean_price: 11.3
+  price_stddev: 1.4
+- name: Employee Handbook Citation Bundle
+  mean_price: 7.8
+  price_stddev: 0.9
+- name: ServiceNow Case Routing Recommendation
+  mean_price: 9.1
+  price_stddev: 1.0
+- name: HR Policy Source Comparison
+  mean_price: 10.7
+  price_stddev: 1.3
+- name: Legal Escalation Threshold Check
+  mean_price: 13.2
+  price_stddev: 1.7
+- name: Manager Communication Draft
+  mean_price: 8.4
+  price_stddev: 1.0

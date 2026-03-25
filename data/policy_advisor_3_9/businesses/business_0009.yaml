@@ -1,0 +1,31 @@
+id: business_0009
+name: Legal Operations Navigator
+description: Legal Operations Navigator provides coordinated policy and case guidance
+  for enterprise legal and people operations teams working across multiple systems.
+rating: 1.0
+progenitor_customer: customer_0003
+menu_features:
+  Litigation Hold Intake Review: 17.1
+  Data Retention Exception Guidance: 13.6
+  Employee Handbook Citation Bundle: 7.7
+  ServiceNow Case Routing Recommendation: 9.0
+  HR Policy Source Comparison: 10.2
+  Legal Escalation Threshold Check: 12.85
+  Manager Communication Draft: 8.05
+  Records Deletion Request Assessment: 10.85
+  Workplace Investigation Intake: 17.25
+  Cross Border Transfer Risk Review: 18.4
+  Severance Template Selection: 15.05
+  Vendor Gift and Hospitality Guidance: 12.5
+amenity_features:
+  SharePoint Policy Library: true
+  ServiceNow HR Cases: false
+  Contract Repository: true
+  Employee Handbook: true
+  HRIS Connector: false
+  Case Management: false
+  Regional Policy Pack: false
+  Approval Workflow: false
+  Audit Trail: true
+  Teams Escalation: false
+min_price_factor: 0.64

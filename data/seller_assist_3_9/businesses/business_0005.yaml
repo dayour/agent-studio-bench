@@ -1,0 +1,32 @@
+id: business_0005
+name: Market Pulse Advisory
+description: Market Pulse Advisory delivers competitive and strategic research using
+  broad market monitoring, CRM enrichment, and competitive signal analysis for enterprise
+  account teams.
+rating: 1.0
+progenitor_customer: customer_0002
+menu_features:
+  Competitive Landscape Brief: 16.4
+  Pain Point and Initiative Mapping: 19.5
+  Organization Chart and Key Contacts: 14.6
+  Recent News and Press Digest: 9.6
+  Regulatory Exposure Summary: 12.1
+  Partner and Alliance Landscape: 13.2
+  Annual Report Key Findings: 11.4
+  Contract Renewal Timeline: 10.9
+  Customer Success Scorecard: 10.6
+  Executive Communication Prep Pack: 8.7
+  Whitespace Opportunity Analysis: 16.3
+  Industry Trend Alignment Brief: 15.0
+amenity_features:
+  CRM Account History: true
+  LinkedIn Sales Navigator: true
+  SEC and Public Filings: false
+  News and Media Monitoring: true
+  Technographic Intelligence: false
+  Intent Signal Platform: false
+  Internal Win-Loss Repository: false
+  Customer Success Platform: true
+  Competitive Intelligence Feed: true
+  Executive Relationship Graph: false
+min_price_factor: 0.84
